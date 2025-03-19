@@ -3,7 +3,7 @@ import random
 
 
 def load_config(file_path="settings.ini"):
-    config = configp arser.ConfigParser()
+    config = configparser.ConfigParser()
     config.read(file_path)
 
     settings = config["Settings"]
