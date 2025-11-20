@@ -39,6 +39,7 @@ Maria.introduce_myself()
 print(f'Experience:{Maria.experience}')
 print(f'Salary:{Maria.calculator()}')
 
+
 def create_students():
     student_1 = Student('Atay','15',"No",{'Physics':3,'Math':3,'Music':5})
     student_2 = Student('Tanay', '15', "No", {'Physics': 5, 'Math': 5, 'Music': 4})
